@@ -2,6 +2,7 @@ import React from 'react'
 import Sidebar from './Sidebar';
 
 import Header2 from './Header2';
+import { UserButton } from '@clerk/nextjs';
 
 const DashboardLayout  = ({children}) => {
   return (
@@ -12,7 +13,7 @@ const DashboardLayout  = ({children}) => {
       <div className='md:ml-64'>
         {children}
       </div>
-    
+    <UserButton/>
     </div>
   )
 }

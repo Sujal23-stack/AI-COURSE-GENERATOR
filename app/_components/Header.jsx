@@ -7,7 +7,7 @@ const { useRouter } = require('next/navigation');
 const  Header= () => {
     const router = useRouter();
     const handleClick = () => {
-    router.push('/course-generator');
+    router.push('/dashboard');
   };
   return (
     <><div className="flex items-center justify-between bg-gray-100 px-4 py-0.1">
